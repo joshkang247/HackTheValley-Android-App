@@ -26,7 +26,7 @@ public class UserProfile extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         toolbar.setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.lightGreen2)));
-        getSupportActionBar().setTitle("Express your concerns");
+        getSupportActionBar().setTitle("Give some advice");
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {

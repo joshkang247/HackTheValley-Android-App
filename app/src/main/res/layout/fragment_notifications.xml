@@ -5,9 +5,67 @@
     tools:context="com.example.joshk.myfirstapp.Notifications">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
+        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Notifications" />
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp">
+
+        <TextView
+            android:text="1 hour ago"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5sp"
+            android:layout_marginTop="5sp"
+            android:textStyle="italic"/>
+
+        <TextView
+            android:text="2 people commented on your post titled 'Life seems so hard these days"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5sp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="5sp"/>
+
+        <TextView
+            android:text="12 hours ago"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5sp"
+            android:layout_marginTop="5sp"
+            android:textStyle="italic"/>
+
+        <TextView
+            android:text="5 people commented on your post titled 'I have too much anxiety'"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5sp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="5sp"/>
+
+        <TextView
+            android:text="2 days ago"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5sp"
+            android:layout_marginTop="5sp"
+            android:textStyle="italic"/>
+
+        <TextView
+            android:text="4 people commented on your post titled 'School isn't right for me'"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5sp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="5sp"/>
+
+
+
+
+    </LinearLayout>
+
 
 </FrameLayout>

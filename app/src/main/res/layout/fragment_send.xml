@@ -22,7 +22,7 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Enter some advice"/>
+            android:hint="What's on your mind"/>
 
         <Button
             android:layout_width="match_parent"
