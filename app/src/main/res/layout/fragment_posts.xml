@@ -5,9 +5,71 @@
     tools:context="com.example.joshk.myfirstapp.Posts">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Suck these nutz" />
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="1 hour ago"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10sp"
+                android:layout_marginBottom="2sp"
+                android:layout_marginTop="2sp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginRight="20sp"
+                android:textStyle="italic"/>
+
+            <TextView
+                android:text="You know, I'd probably be classified as someone who is 'severely depressed'. I take no pleasure in anything anymore, am always in a negative mood, and have had some thoughts that have scared me. I generally don't tell anyone, that I'm depressed because it's not their problem and I have no good reason to be depressed. I had a good and a very financially comfortable upbringing with a family that loved me and have been classified as a 'genius' by an IQ test I took as kid (probably wouldn't be considered that smart today, but I'm just trying to say I never struggled in that regard). Sort of ugly, but that never bothered me much. So, the way I see it, if I was to go to a counselor, I'd be saying that 'yeah, I have no good reason to be depressed, but I think I'm important enough for you to waste your time on'. It just seems selfish to me, but I'm finding it harder to act around people who care about me, and I don't want to upset them unnecessarily. What do I do?"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20sp"
+                android:layout_marginRight="20sp"
+                android:layout_marginBottom="2sp"
+                android:layout_marginTop="2sp"/>
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="30px"
+                android:text="View Comments"
+                android:onClick="Comments"/>
+
+            <TextView
+                android:text="12 hours ago"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10sp"
+                android:layout_marginBottom="2sp"
+                android:layout_marginTop="2sp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginRight="20sp"
+                android:textStyle="italic"/>
+
+            <TextView
+                android:text="You know, I'd probably be classified as someone who is 'severely depressed'. I take no pleasure in anything anymore, am always in a negative mood, and have had some thoughts that have scared me. I generally don't tell anyone, that I'm depressed because it's not their problem and I have no good reason to be depressed. I had a good and a very financially comfortable upbringing with a family that loved me and have been classified as a 'genius' by an IQ test I took as kid (probably wouldn't be considered that smart today, but I'm just trying to say I never struggled in that regard). Sort of ugly, but that never bothered me much. So, the way I see it, if I was to go to a counselor, I'd be saying that 'yeah, I have no good reason to be depressed, but I think I'm important enough for you to waste your time on'. It just seems selfish to me, but I'm finding it harder to act around people who care about me, and I don't want to upset them unnecessarily. What do I do?"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20sp"
+                android:layout_marginRight="20sp"
+                android:layout_marginBottom="2sp"
+                android:layout_marginTop="2sp"/>
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="30px"
+                android:text="View Comments"
+                android:onClick="Comments"/>
+
+        </LinearLayout>
+    </ScrollView>
 
 </FrameLayout>

@@ -32,7 +32,7 @@ public class UserProfile extends AppCompatActivity
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+                Snackbar.make(view, "No new notifications", Snackbar.LENGTH_SHORT)
                         .setAction("Action", null).show();
             }
         });
@@ -49,6 +49,13 @@ public class UserProfile extends AppCompatActivity
         Posts posts = new Posts();
         FragmentManager manager = getSupportFragmentManager();
         manager.beginTransaction().replace(R.id.content_user_profile, posts).commit();
+    }
+
+    public void Comments (View view){  //View comments button was clicked
+        Comments comments = new Comments();
+        FragmentManager manager = getSupportFragmentManager();
+        manager.beginTransaction().replace(R.id.content_user_profile, comments).commit();
+        getSupportActionBar().setTitle("Notifications");
     }
 
     @Override
@@ -94,7 +101,7 @@ public class UserProfile extends AppCompatActivity
             Posts posts = new Posts();
             FragmentManager manager = getSupportFragmentManager();
             manager.beginTransaction().replace(R.id.content_user_profile, posts).commit();
-            getSupportActionBar().setTitle("Express your concerns");
+            getSupportActionBar().setTitle("Give some advice");
 
         } else if (id == R.id.nav_notifications) {
             Notifications notifications = new Notifications();
@@ -118,7 +125,7 @@ public class UserProfile extends AppCompatActivity
             Profile profile = new Profile();
             FragmentManager manager = getSupportFragmentManager();
             manager.beginTransaction().replace(R.id.content_user_profile, profile).commit();
-            getSupportActionBar().setTitle("Make a Post");
+            getSupportActionBar().setTitle("Express your concerns");
 
         }
 
