@@ -207,7 +207,7 @@ Also keep in mind that considering yourself unimportant and a waste is part of d
                 android:text="Post"/>
         </LinearLayout>
 
-    </LinearLayout>
+</LinearLayout>
 
 
 </FrameLayout>

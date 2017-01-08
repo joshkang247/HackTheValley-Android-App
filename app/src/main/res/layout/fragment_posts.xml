@@ -43,7 +43,34 @@
                 android:onClick="Comments"/>
 
             <TextView
-                android:text="12 hours ago"
+            android:text="12 hours ago"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+            android:layout_marginBottom="2sp"
+            android:layout_marginTop="2sp"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"
+            android:textStyle="italic"/>
+
+            <TextView
+                android:text="I grew up in an environment where I had to become an adult at a young age, though my parent refuses to admit it. I understood too much too young, but because people tend to hide their emotions from children (which was the case for me, minus anger) I never really came to understand emotions. I'm not emotionless and I don't lack sympathy or empathy, it's just that, if I can't find a logical reason to feel something, I won't. It's also easy to deem how much of an emotion (i.e. anger, sadness, etc.) to feel over any given event. People usually love this about me - the catch: I have no idea how to handle people's feelings and when I explain that someone might be overly angry at something small and that they should maybe reevaluate the situation people end up feeling invalidated - like my validation is even relevant or important. It's frustrating."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20sp"
+                android:layout_marginRight="20sp"
+                android:layout_marginBottom="2sp"
+                android:layout_marginTop="2sp"/>
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="30px"
+                android:text="View Comments"
+                android:onClick="Comments"/>
+
+            <TextView
+                android:text="2 days ago"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10sp"
@@ -54,7 +81,7 @@
                 android:textStyle="italic"/>
 
             <TextView
-                android:text="You know, I'd probably be classified as someone who is 'severely depressed'. I take no pleasure in anything anymore, am always in a negative mood, and have had some thoughts that have scared me. I generally don't tell anyone, that I'm depressed because it's not their problem and I have no good reason to be depressed. I had a good and a very financially comfortable upbringing with a family that loved me and have been classified as a 'genius' by an IQ test I took as kid (probably wouldn't be considered that smart today, but I'm just trying to say I never struggled in that regard). Sort of ugly, but that never bothered me much. So, the way I see it, if I was to go to a counselor, I'd be saying that 'yeah, I have no good reason to be depressed, but I think I'm important enough for you to waste your time on'. It just seems selfish to me, but I'm finding it harder to act around people who care about me, and I don't want to upset them unnecessarily. What do I do?"
+                android:text="Been feelin down and depressed for a long while now. Just when i thought things would light up during the summer, everything just plummeted again. I am at the lowest point in my life. Being a Canadian Armed Forces member undergoing basic training, I dont know how much more stress I can handle. Thats the only thing Im proud of in my life. Im just so tired of school, relationships, work. Im tired of everything. I miss her, I miss my high school days, I miss having confidence and knowing who I am. I just want to end it soon."
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20sp"

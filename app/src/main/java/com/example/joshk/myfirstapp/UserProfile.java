@@ -55,7 +55,7 @@ public class UserProfile extends AppCompatActivity
         Comments comments = new Comments();
         FragmentManager manager = getSupportFragmentManager();
         manager.beginTransaction().replace(R.id.content_user_profile, comments).commit();
-        getSupportActionBar().setTitle("Notifications");
+        getSupportActionBar().setTitle("Comments");
     }
 
     @Override
@@ -122,9 +122,9 @@ public class UserProfile extends AppCompatActivity
 
 
         } else if (id == R.id.nav_send) {
-            Profile profile = new Profile();
+            Send send = new Send();
             FragmentManager manager = getSupportFragmentManager();
-            manager.beginTransaction().replace(R.id.content_user_profile, profile).commit();
+            manager.beginTransaction().replace(R.id.content_user_profile, send).commit();
             getSupportActionBar().setTitle("Express your concerns");
 
         }
