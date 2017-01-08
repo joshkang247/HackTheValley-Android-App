@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_posts"
+            android:icon="@drawable/ic_location_on_black_24dp"
+            android:title="Nearby Concerns" />
+
+        <item
+            android:id="@+id/nav_send"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Make a post" />
+
+        <item
+            android:id="@+id/nav_notifications"
+            android:icon="@drawable/ic_assistant_photo_black_24dp"
+            android:title="Notifications" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_portrait_black_24dp"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_airline_seat_flat_black_24dp"
+            android:title="Log Out" />
+    </group>
+
+
+</menu>
